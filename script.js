@@ -1,7 +1,4 @@
-/* ═══════════════════════════════════════════
-   NITHISH KUMAR — PRO PORTFOLIO
-   script.js — Interactions & Animations
-═══════════════════════════════════════════ */
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
