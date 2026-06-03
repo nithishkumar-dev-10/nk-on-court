@@ -1,35 +1,35 @@
 
 :root {
-  /* Core Palette */
+
   --bg:          #050d1a;
   --bg2:         #081426;
   --bg3:         #0a1e38;
 
-  /* Volleyball Gold */
+
   --gold:        #f0b840;
   --gold-dark:   #c08820;
   --gold-light:  #ffe080;
   --gold-glow:   rgba(240,184,64,0.18);
 
-  /* Electric Blue */
+
   --blue:        #1a8fff;
   --blue-deep:   #0055cc;
   --blue-glow:   rgba(26,143,255,0.15);
 
-  /* Accent Orange */
+
   --orange:      #ff6b35;
   --orange-glow: rgba(255,107,53,0.15);
 
-  /* Court Green */
+
   --green:       #00e676;
   --green-glow:  rgba(0,230,118,0.12);
 
-  /* Text */
+
   --text:        #f0e8d8;
   --text-dim:    rgba(240,232,216,0.55);
   --text-muted:  rgba(240,232,216,0.28);
 
-  /* Glass */
+
   --glass:       rgba(255,255,255,0.03);
   --glass-border:rgba(255,255,255,0.07);
   --glass-hover: rgba(255,255,255,0.06);
