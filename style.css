@@ -35,7 +35,7 @@
   --glass-hover: rgba(255,255,255,0.06);
 }
 
-/* ─── RESET & BASE ─── */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
@@ -72,7 +72,7 @@ body {
 body:hover #cursor-ring { opacity: 1; }
 a:hover ~ #cursor, button:hover ~ #cursor { transform: translate(-50%,-50%) scale(2.5); }
 
-/* ─── LOADER ─── */
+
 #loader {
   position: fixed; inset: 0; z-index: 100000;
   background: var(--bg);
@@ -285,7 +285,7 @@ h1.hero-name .line2 .dot { color: var(--gold); -webkit-text-stroke: 0; }
   background: rgba(240,184,64,0.05);
 }
 
-/* ─── 3D VOLLEYBALL ─── */
+
 .hero-right { position: relative; display: flex; justify-content: center; align-items: center; }
 .ball-3d-wrap {
   position: relative; width: 420px; height: 420px;
@@ -553,7 +553,7 @@ h2.section-title em {
   50% { transform: translateY(-8px) translateX(4px); }
 }
 
-/* ─── SKILLS ─── */
+
 #skills {
   background:
     radial-gradient(ellipse 60% 50% at 10% 50%, rgba(255,107,53,0.07) 0%, transparent 60%),
