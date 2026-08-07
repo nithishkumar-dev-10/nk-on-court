@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
     progressBar.style.width = (scrollTop / docHeight * 100) + '%';
   });
 
-  /* ── ORBIT PILLS ENTRANCE ── */
+
   document.querySelectorAll('.torb').forEach((pill, i) => {
     pill.style.opacity = '0';
     pill.style.transform += ' translateX(20px)';
@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 800 + i * 150);
   });
 
-  /* ── SECTION ENTER ANIMATION DELAY STAGGER ── */
+ 
   document.querySelectorAll('.skill-category').forEach((cat, i) => {
     cat.style.transitionDelay = (i * 0.12) + 's';
   });
