@@ -760,10 +760,12 @@ h2.section-title em {
   background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(240,184,64,0.05), transparent 65%);
   pointer-events: none;
 }
+
 .proj-card:hover { border-color: rgba(240,184,64,0.3); transform: translateY(-6px); box-shadow: 0 25px 60px rgba(0,0,0,0.3); }
 .proj-card-top {
   display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.2rem;
 }
+
 .pc-type {
   font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
   color: var(--blue); letter-spacing: 0.08em; opacity: 0.8;
