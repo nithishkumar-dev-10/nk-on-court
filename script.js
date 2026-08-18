@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ── 3D COURT TILT on mousemove ── */
+  
   const court = document.getElementById('court-3d');
   if (court) {
     const wrapper = court.parentElement;
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ── CONTACT FORM ── */
+
   const submitBtn = document.getElementById('form-submit-btn');
   if (submitBtn) {
     submitBtn.addEventListener('click', () => {
