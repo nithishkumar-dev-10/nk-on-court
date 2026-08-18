@@ -765,7 +765,6 @@ h2.section-title em {
 .proj-card-top {
   display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.2rem;
 }
-
 .pc-type {
   font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
   color: var(--blue); letter-spacing: 0.08em; opacity: 0.8;
@@ -792,7 +791,7 @@ h2.section-title em {
   position: absolute; bottom: 1.2rem; right: 1.2rem;
 }
 
-/* ─── CONTACT ─── */
+
 #contact {
   background:
     radial-gradient(ellipse 70% 60% at 50% 0%, rgba(255,107,53,0.08) 0%, transparent 60%),
