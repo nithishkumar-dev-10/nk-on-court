@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.3 });
   document.querySelectorAll('.about-stats, .hero-right').forEach(el => counterObs.observe(el));
 
-  /* ── ACHIEVEMENT CARD GLOW RANDOMIZE ── */
+  
   document.querySelectorAll('.ach-glow').forEach((glow, i) => {
     const hues = ['rgba(240,184,64,0.3)', 'rgba(26,143,255,0.3)', 'rgba(0,230,118,0.3)'];
     glow.style.background = `radial-gradient(circle, ${hues[i % hues.length]}, transparent 70%)`;
