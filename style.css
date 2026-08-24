@@ -170,7 +170,7 @@ nav.scrolled {
 }
 .mob-link:hover { color: var(--gold); }
 
-/* ─── HERO ─── */
+
 #hero {
   position: relative; min-height: 100vh;
   display: flex; align-items: center;
