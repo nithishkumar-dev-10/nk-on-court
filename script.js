@@ -187,7 +187,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ── TYPED EFFECT ── */
+
+  
   const typed = document.getElementById('typed');
   if (typed) {
     const words = ['AI Engineer', 'Python Developer', 'ML Engineer', 'Backend Builder', 'Hackathon Winner', 'Agent Architect'];
