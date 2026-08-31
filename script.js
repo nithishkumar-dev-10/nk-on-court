@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   if (ham) ham.addEventListener('click', () => mob.classList.contains('open') ? closeMob() : openMob());
 
-  /* ── SCROLL REVEAL ── */
+
   const revObs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
